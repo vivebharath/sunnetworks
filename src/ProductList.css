@@ -1,0 +1,27 @@
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    border: 2px solid #141314;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+}
+.product-card:hover{
+    background-color: #007bff63;
+    cursor: pointer;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
